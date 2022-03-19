@@ -4,7 +4,7 @@
 %--------------------------------------------------------------
 function [ret_val] = getConfiguration(argType)
     if(argType == 1)
-        ret_val = 'D:\sim_results';
+        ret_val = 'D:\edgeProject\EdgeCloudSim\sim_results';
     elseif(argType == 2)
         ret_val = 1; %Number of iterations
     elseif(argType == 3)
@@ -12,7 +12,7 @@ function [ret_val] = getConfiguration(argType)
     elseif(argType == 4)
         ret_val = 100; %step size of mobile device count
     elseif(argType == 5)
-        ret_val =1000; %max number of mobile device
+        ret_val =500; %max number of mobile device %limiting to 500 currently from 1000
     elseif(argType == 6)
         ret_val = 1; %xTickLabelCoefficient
     elseif(argType == 7)

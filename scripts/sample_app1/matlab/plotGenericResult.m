@@ -40,8 +40,9 @@ function [] = plotGenericResult(rowOfset, columnOfset, yLabel, appType, calculat
                     end
 
                     all_results(s,i,j) = value;
-                catch err
-                    error(err)
+                catch ME
+                    error(ME.message);
+                    
                 end
             end
         end
