@@ -8,11 +8,11 @@ function [ret_val] = getConfiguration(argType)
     elseif(argType == 2)
         ret_val = 1; %Number of iterations
     elseif(argType == 3)
-        ret_val = 100; %min number of mobile device
+        ret_val = 50; %min number of mobile device
     elseif(argType == 4)
-        ret_val = 100; %step size of mobile device count
+        ret_val = 25; %step size of mobile device count
     elseif(argType == 5)
-        ret_val =500; %max number of mobile device %limiting to 500 currently from 1000
+        ret_val =75; %max number of mobile device %limiting to 500 currently from 1000
     elseif(argType == 6)
         ret_val = 1; %xTickLabelCoefficient
     elseif(argType == 7)
