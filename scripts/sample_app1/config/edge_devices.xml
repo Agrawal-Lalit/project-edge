@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <edge_devices>
+	<!-- TOTAL 14 DATACENTERS ARE USED WITH DIFFERENCT ATTRACTIVENESS LEVEL -->
 	<datacenter arch="x86" os="Linux" vmm="Xen">
 		<costPerBw>0.1</costPerBw>
 		<costPerSec>3.0</costPerSec>
@@ -17,7 +18,8 @@
 				<mips>4000</mips>
 				<ram>8000</ram>
 				<storage>200000</storage>
-				<VMs>
+				<!-- HERE WE ARE USING 4 VM'S PER HOST -->
+				<VMs>         
 					<VM vmm="Xen">
 						<core>2</core>
 						<mips>1000</mips>
