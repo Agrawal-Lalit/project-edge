@@ -8,7 +8,7 @@ function [ret_val] = getConfiguration(argType)
     elseif(argType == 2)
         ret_val = 1; %Number of iterations
     elseif(argType == 3)
-     ret_val = 100; %min number of mobile device
+        ret_val = 100; %min number of mobile device
     elseif(argType == 4)
         ret_val = 100; %step size of mobile device count
     elseif(argType == 5)
